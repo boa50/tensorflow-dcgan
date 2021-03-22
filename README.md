@@ -1,0 +1,1 @@
+Implementação de DCGAN baseada no tutorial do tensorflow: https://www.tensorflow.org/tutorials/generative/dcgan
