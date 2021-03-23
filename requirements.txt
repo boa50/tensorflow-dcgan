@@ -1,1 +1,6 @@
-# To ensure app dependencies are ported from your virtual environment/host machine into your container, run 'pip freeze > requirements.txt' in the terminal to overwrite this file
+imageio
+matplotlib
+numpy
+ipython
+Pillow
+-e git+https://github.com/tensorflow/docs#egg=tensorflow-docs

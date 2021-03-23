@@ -25,19 +25,11 @@
 
 	// Uncomment when using a ptrace-based debugger like C++, Go, and Rust
 	// Os números 1000 são decorrentes dos comandos $(id -u $USER):$(id -g $USER)
-	"runArgs": ["--gpus", "all", 
-		"-u", "1000:1000", 
-		"-e", "DISPLAY", 
-		"-v", "/etc/group:/etc/group:ro", 
-		"-v", "/etc/passwd:/etc/passwd:ro",
-		"-v", "/etc/shadow:/etc/shadow:ro",
-		"-v", "/etc/sudoers.d:/etc/sudoers.d:ro",
-		"-v", "/tmp/.X11-unix:/tmp/.X11-unix:rw"
-	]
+	"runArgs": ["--gpus", "all"],
 
 	// Uncomment to use the Docker CLI from inside the container. See https://aka.ms/vscode-remote/samples/docker-from-docker.
 	// "mounts": [ "source=/var/run/docker.sock,target=/var/run/docker.sock,type=bind" ],
 
 	// Uncomment to connect as a non-root user if you've added one. See https://aka.ms/vscode-remote/containers/non-root.
-	// "remoteUser": "vscode"
+	"remoteUser": "boa50"
 }
